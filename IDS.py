@@ -47,7 +47,7 @@ def greet_user():
     else:
         speak("Good evening!")
 
-# Main function to execute commands
+
 def execute_command(command):
     if 'wikipedia' in command:
         speak("Searching Wikipedia...")
@@ -88,3 +88,4 @@ def start_voice_assistant():
 # Start the assistant
 if __name__ == "__main__":
     start_voice_assistant()
+
